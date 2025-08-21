@@ -53,11 +53,11 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     endif
     " support for folke/flash.nvim
     hi FlashLabel guifg=#1f1f24 guibg=#ff7ab2 gui=bold cterm=bold
-    hi Normal guifg=#dfdfe0 guibg=#292a30 gui=NONE cterm=NONE
-    hi Cursor guifg=#292a30 guibg=#dfdfe0 gui=NONE cterm=NONE
+    hi Normal guifg=#dfdfe0 guibg=#000000 gui=NONE cterm=NONE
+    hi Cursor guifg=#000000 guibg=#dfdfe0 gui=NONE cterm=NONE
     hi None guifg=#dfdfe0 guibg=NONE gui=NONE cterm=NONE
     hi CursorLineNr guifg=#dfdfe0 guibg=#2f3037 gui=NONE cterm=NONE
-    hi EndOfBuffer guifg=#292a30 guibg=#292a30 gui=NONE cterm=NONE
+    hi EndOfBuffer guifg=#000000 guibg=#000000 gui=NONE cterm=NONE
     hi FoldColumn guifg=#53606e guibg=NONE gui=NONE cterm=NONE
     hi Folded guifg=#53606e guibg=#393b44 gui=NONE cterm=NONE
     hi LineNr guifg=#53606e guibg=NONE gui=NONE cterm=NONE
@@ -82,7 +82,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     hi StatusLineNC guifg=#7f8c98 guibg=#393b44 gui=NONE cterm=NONE
     hi VertSplit guifg=#393b44 guibg=#393b44 gui=NONE cterm=NONE
     hi WildMenu guifg=#dfdfe0 guibg=#0f5bca gui=NONE cterm=NONE
-    hi IncSearch guifg=#292a30 guibg=#fef937 gui=NONE cterm=NONE
+    hi IncSearch guifg=#000000 guibg=#fef937 gui=NONE cterm=NONE
     hi Search guifg=#dfdfe0 guibg=#414453 gui=NONE cterm=NONE
     hi Visual guifg=NONE guibg=#414453 gui=NONE cterm=NONE
     hi DiffAdd guifg=#acf2e4 guibg=#243330 gui=NONE cterm=NONE
@@ -90,7 +90,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     hi DiffDelete guifg=#ff8170 guibg=#3b2d2b gui=NONE cterm=NONE
     hi DiffText guifg=#ffa14f guibg=#382e27 gui=NONE cterm=NONE
     hi Comment guifg=#7f8c98 guibg=NONE gui=NONE cterm=NONE
-    hi Error guifg=#292a30 guibg=#ff8170 gui=NONE cterm=NONE
+    hi Error guifg=#000000 guibg=#ff8170 gui=NONE cterm=NONE
     hi PreProc guifg=#ffa14f guibg=NONE gui=NONE cterm=NONE
     hi Special guifg=#78c2b3 guibg=NONE gui=NONE cterm=NONE
     hi Statement guifg=#ff7ab2 guibg=NONE gui=bold cterm=bold
@@ -352,7 +352,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
       hi LibraryIdent guifg=#b281eb guibg=NONE gui=NONE cterm=NONE
     endif
     if g:xcode_match_paren_style
-      hi MatchParen guifg=#292a30 guibg=#fef937 gui=NONE cterm=NONE
+      hi MatchParen guifg=#000000 guibg=#fef937 gui=NONE cterm=NONE
     else
       hi MatchParen guifg=#dfdfe0 guibg=#0f5bca gui=NONE cterm=NONE
     endif
@@ -404,22 +404,22 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   if !exists('g:xcode_dim_punctuation')
     let g:xcode_dim_punctuation = 1
   endif
-  hi Normal guifg=#262626 guibg=#ffffff gui=NONE cterm=NONE
-  hi Cursor guifg=#ffffff guibg=#262626 gui=NONE cterm=NONE
+  hi Normal guifg=#262626 guibg=#eeeeee gui=NONE cterm=NONE
+  hi Cursor guifg=#eeeeee guibg=#262626 gui=NONE cterm=NONE
   hi None guifg=#262626 guibg=NONE gui=NONE cterm=NONE
   hi CursorLineNr guifg=#262626 guibg=#ecf5ff gui=NONE cterm=NONE
-  hi EndOfBuffer guifg=#ffffff guibg=#ffffff gui=NONE cterm=NONE
+  hi EndOfBuffer guifg=#eeeeee guibg=#eeeeee gui=NONE cterm=NONE
   hi FoldColumn guifg=#cdcdcd guibg=NONE gui=NONE cterm=NONE
   hi Folded guifg=#8a99a6 guibg=#e5e5e5 gui=NONE cterm=NONE
   hi LineNr guifg=#cdcdcd guibg=NONE gui=NONE cterm=NONE
   hi MatchParen guifg=#262626 guibg=#fef869 gui=NONE cterm=NONE
-  hi MatchWord guifg=#ffffff guibg=#156adf gui=NONE cterm=NONE
+  hi MatchWord guifg=#eeeeee guibg=#156adf gui=NONE cterm=NONE
   hi SignColumn guifg=#cdcdcd guibg=NONE gui=NONE cterm=NONE
   hi Signify guifg=#69a7fc guibg=NONE gui=NONE cterm=NONE
   hi Ignore guifg=#cdcdcd guibg=NONE gui=NONE cterm=NONE
   hi Pmenu guifg=#262626 guibg=#f4f4f4 gui=NONE cterm=NONE
   hi PmenuSbar guifg=#f4f4f4 guibg=#f4f4f4 gui=NONE cterm=NONE
-  hi PmenuSel guifg=#ffffff guibg=#156adf gui=NONE cterm=NONE
+  hi PmenuSel guifg=#eeeeee guibg=#156adf gui=NONE cterm=NONE
   hi PmenuThumb guifg=#e5e5e5 guibg=#e5e5e5 gui=NONE cterm=NONE
   hi ErrorMsg guifg=#d12f1b guibg=NONE gui=NONE cterm=NONE
   hi ModeMsg guifg=#8a99a6 guibg=NONE gui=NONE cterm=NONE
@@ -429,11 +429,11 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi ColorColumn guifg=NONE guibg=#f4f4f4 gui=NONE cterm=NONE
   hi CursorColumn guifg=NONE guibg=#ecf5ff gui=NONE cterm=NONE
   hi CursorLine guifg=NONE guibg=#ecf5ff gui=NONE cterm=NONE
-  hi QuickFixLine guifg=#ffffff guibg=#156adf gui=NONE cterm=NONE
+  hi QuickFixLine guifg=#eeeeee guibg=#156adf gui=NONE cterm=NONE
   hi StatusLine guifg=#262626 guibg=#e5e5e5 gui=NONE cterm=NONE
   hi StatusLineNC guifg=#262626 guibg=#f4f4f4 gui=NONE cterm=NONE
   hi VertSplit guifg=#f4f4f4 guibg=#f4f4f4 gui=NONE cterm=NONE
-  hi WildMenu guifg=#ffffff guibg=#156adf gui=NONE cterm=NONE
+  hi WildMenu guifg=#eeeeee guibg=#156adf gui=NONE cterm=NONE
   hi IncSearch guifg=#262626 guibg=#fef869 gui=NONE cterm=NONE
   hi Search guifg=#262626 guibg=#e5e5e5 gui=NONE cterm=NONE
   hi Visual guifg=NONE guibg=#b4d8fd gui=NONE cterm=NONE
@@ -442,7 +442,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi DiffDelete guifg=NONE guibg=#fef0f1 gui=NONE cterm=NONE
   hi DiffText guifg=NONE guibg=#fdfae6 gui=NONE cterm=NONE
   hi Comment guifg=#8a99a6 guibg=NONE gui=NONE cterm=NONE
-  hi Error guifg=#ffffff guibg=#d12f1b gui=NONE cterm=NONE
+  hi Error guifg=#eeeeee guibg=#d12f1b gui=NONE cterm=NONE
   hi PreProc guifg=#78492a guibg=NONE gui=NONE cterm=NONE
   hi Special guifg=#23575c guibg=NONE gui=NONE cterm=NONE
   hi Statement guifg=#ad3da4 guibg=NONE gui=bold cterm=bold
@@ -706,7 +706,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   if g:xcode_match_paren_style
     hi MatchParen guifg=#262626 guibg=#fef869 gui=NONE cterm=NONE
   else
-    hi MatchParen guifg=#ffffff guibg=#156adf gui=NONE cterm=NONE
+    hi MatchParen guifg=#eeeeee guibg=#156adf gui=NONE cterm=NONE
   endif
   if g:xcode_dim_punctuation
     hi Delimiter guifg=#5c6873 guibg=NONE gui=NONE cterm=NONE
@@ -1390,7 +1390,7 @@ if s:t_Co >= 256
 endif
 
 " Background: dark
-" Color: base0        #292a30 ~
+" Color: base0        #000000 ~
 " Color: base1        #2f3037 ~
 " Color: base2        #393b44 ~
 " Color: base3        #414453 ~
@@ -1422,7 +1422,7 @@ endif
 " Term colors: base5      red  light_teal   orange
 " Term colors: light_blue pink light_purple base7
 " Background: light
-" Color: base0       #ffffff ~
+" Color: base0       #eeeeee ~
 " Color: base1       #f4f4f4 ~
 " Color: base2       #e5e5e5 ~
 " Color: base3       #cdcdcd ~
