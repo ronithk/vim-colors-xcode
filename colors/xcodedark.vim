@@ -60,11 +60,11 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   endif
   " support for folke/flash.nvim
   hi FlashLabel guifg=#1f1f24 guibg=#ff7ab2 gui=bold cterm=bold
-  hi Normal guifg=#dfdfe0 guibg=#292a30 gui=NONE cterm=NONE
-  hi Cursor guifg=#292a30 guibg=#dfdfe0 gui=NONE cterm=NONE
+  hi Normal guifg=#dfdfe0 guibg=#000000 gui=NONE cterm=NONE
+  hi Cursor guifg=#000000 guibg=#dfdfe0 gui=NONE cterm=NONE
   hi Empty guifg=#dfdfe0 guibg=NONE gui=NONE cterm=NONE
   hi CursorLineNr guifg=#dfdfe0 guibg=#2f3037 gui=NONE cterm=NONE
-  hi EndOfBuffer guifg=#292a30 guibg=#292a30 gui=NONE cterm=NONE
+  hi EndOfBuffer guifg=#000000 guibg=#000000 gui=NONE cterm=NONE
   hi FoldColumn guifg=#53606e guibg=NONE gui=NONE cterm=NONE
   hi Folded guifg=#53606e guibg=#393b44 gui=NONE cterm=NONE
   hi LineNr guifg=#53606e guibg=NONE gui=NONE cterm=NONE
@@ -89,7 +89,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi StatusLineNC guifg=#7f8c98 guibg=#393b44 gui=NONE cterm=NONE
   hi VertSplit guifg=#393b44 guibg=#393b44 gui=NONE cterm=NONE
   hi WildMenu guifg=#dfdfe0 guibg=#0f5bca gui=NONE cterm=NONE
-  hi IncSearch guifg=#292a30 guibg=#fef937 gui=NONE cterm=NONE
+  hi IncSearch guifg=#000000 guibg=#fef937 gui=NONE cterm=NONE
   hi Search guifg=#dfdfe0 guibg=#414453 gui=NONE cterm=NONE
   hi Visual guifg=NONE guibg=#414453 gui=NONE cterm=NONE
   hi DiffAdd guifg=#acf2e4 guibg=#243330 gui=NONE cterm=NONE
@@ -97,7 +97,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi DiffDelete guifg=#ff8170 guibg=#3b2d2b gui=NONE cterm=NONE
   hi DiffText guifg=#ffa14f guibg=#382e27 gui=NONE cterm=NONE
   hi Comment guifg=#7f8c98 guibg=NONE gui=NONE cterm=NONE
-  hi Error guifg=#292a30 guibg=#ff8170 gui=NONE cterm=NONE
+  hi Error guifg=#000000 guibg=#ff8170 gui=NONE cterm=NONE
   hi PreProc guifg=#ffa14f guibg=NONE gui=NONE cterm=NONE
   hi Special guifg=#78c2b3 guibg=NONE gui=NONE cterm=NONE
   hi Statement guifg=#ff7ab2 guibg=NONE gui=bold cterm=bold
@@ -419,7 +419,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     hi LibraryIdent guifg=#b281eb guibg=NONE gui=NONE cterm=NONE
   endif
   if g:xcodedark_match_paren_style
-    hi MatchParen guifg=#292a30 guibg=#fef937 gui=NONE cterm=NONE
+    hi MatchParen guifg=#000000 guibg=#fef937 gui=NONE cterm=NONE
   else
     hi MatchParen guifg=#dfdfe0 guibg=#0f5bca gui=NONE cterm=NONE
   endif
@@ -830,7 +830,7 @@ if s:t_Co == s:t_Co
   finish
 endif
 
-" Color: base0        #292a30 ~
+" Color: base0        #000000 ~
 " Color: base1        #2f3037 ~
 " Color: base2        #393b44 ~
 " Color: base3        #414453 ~
