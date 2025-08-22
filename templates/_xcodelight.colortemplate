@@ -32,7 +32,7 @@ CursorLineNr   base6       light_aqua
 EndOfBuffer    base0       base0
 FoldColumn     base3       none
 Folded         base4       base2
-LineNr         base3       none
+LineNr         base3       base0
 MatchParen     base6       deep_yellow
 MatchWord      base0       deep_blue0
 SignColumn     base3       none

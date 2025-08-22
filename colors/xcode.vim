@@ -404,22 +404,22 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   if !exists('g:xcode_dim_punctuation')
     let g:xcode_dim_punctuation = 1
   endif
-  hi Normal guifg=#262626 guibg=#eeeeee gui=NONE cterm=NONE
-  hi Cursor guifg=#eeeeee guibg=#262626 gui=NONE cterm=NONE
+  hi Normal guifg=#262626 guibg=#e8e9ec gui=NONE cterm=NONE
+  hi Cursor guifg=#e8e9ec guibg=#262626 gui=NONE cterm=NONE
   hi None guifg=#262626 guibg=NONE gui=NONE cterm=NONE
   hi CursorLineNr guifg=#262626 guibg=#ecf5ff gui=NONE cterm=NONE
-  hi EndOfBuffer guifg=#eeeeee guibg=#eeeeee gui=NONE cterm=NONE
+  hi EndOfBuffer guifg=#e8e9ec guibg=#e8e9ec gui=NONE cterm=NONE
   hi FoldColumn guifg=#cdcdcd guibg=NONE gui=NONE cterm=NONE
   hi Folded guifg=#8a99a6 guibg=#e5e5e5 gui=NONE cterm=NONE
-  hi LineNr guifg=#cdcdcd guibg=NONE gui=NONE cterm=NONE
+  hi LineNr guifg=#cdcdcd guibg=#e8e9ec gui=NONE cterm=NONE
   hi MatchParen guifg=#262626 guibg=#fef869 gui=NONE cterm=NONE
-  hi MatchWord guifg=#eeeeee guibg=#156adf gui=NONE cterm=NONE
+  hi MatchWord guifg=#e8e9ec guibg=#156adf gui=NONE cterm=NONE
   hi SignColumn guifg=#cdcdcd guibg=NONE gui=NONE cterm=NONE
   hi Signify guifg=#69a7fc guibg=NONE gui=NONE cterm=NONE
   hi Ignore guifg=#cdcdcd guibg=NONE gui=NONE cterm=NONE
   hi Pmenu guifg=#262626 guibg=#f4f4f4 gui=NONE cterm=NONE
   hi PmenuSbar guifg=#f4f4f4 guibg=#f4f4f4 gui=NONE cterm=NONE
-  hi PmenuSel guifg=#eeeeee guibg=#156adf gui=NONE cterm=NONE
+  hi PmenuSel guifg=#e8e9ec guibg=#156adf gui=NONE cterm=NONE
   hi PmenuThumb guifg=#e5e5e5 guibg=#e5e5e5 gui=NONE cterm=NONE
   hi ErrorMsg guifg=#d12f1b guibg=NONE gui=NONE cterm=NONE
   hi ModeMsg guifg=#8a99a6 guibg=NONE gui=NONE cterm=NONE
@@ -429,11 +429,11 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi ColorColumn guifg=NONE guibg=#f4f4f4 gui=NONE cterm=NONE
   hi CursorColumn guifg=NONE guibg=#ecf5ff gui=NONE cterm=NONE
   hi CursorLine guifg=NONE guibg=#ecf5ff gui=NONE cterm=NONE
-  hi QuickFixLine guifg=#eeeeee guibg=#156adf gui=NONE cterm=NONE
+  hi QuickFixLine guifg=#e8e9ec guibg=#156adf gui=NONE cterm=NONE
   hi StatusLine guifg=#262626 guibg=#e5e5e5 gui=NONE cterm=NONE
   hi StatusLineNC guifg=#262626 guibg=#f4f4f4 gui=NONE cterm=NONE
   hi VertSplit guifg=#f4f4f4 guibg=#f4f4f4 gui=NONE cterm=NONE
-  hi WildMenu guifg=#eeeeee guibg=#156adf gui=NONE cterm=NONE
+  hi WildMenu guifg=#e8e9ec guibg=#156adf gui=NONE cterm=NONE
   hi IncSearch guifg=#262626 guibg=#fef869 gui=NONE cterm=NONE
   hi Search guifg=#262626 guibg=#e5e5e5 gui=NONE cterm=NONE
   hi Visual guifg=NONE guibg=#b4d8fd gui=NONE cterm=NONE
@@ -442,7 +442,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi DiffDelete guifg=NONE guibg=#fef0f1 gui=NONE cterm=NONE
   hi DiffText guifg=NONE guibg=#fdfae6 gui=NONE cterm=NONE
   hi Comment guifg=#8a99a6 guibg=NONE gui=NONE cterm=NONE
-  hi Error guifg=#eeeeee guibg=#d12f1b gui=NONE cterm=NONE
+  hi Error guifg=#e8e9ec guibg=#d12f1b gui=NONE cterm=NONE
   hi PreProc guifg=#78492a guibg=NONE gui=NONE cterm=NONE
   hi Special guifg=#23575c guibg=NONE gui=NONE cterm=NONE
   hi Statement guifg=#ad3da4 guibg=NONE gui=bold cterm=bold
@@ -706,7 +706,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   if g:xcode_match_paren_style
     hi MatchParen guifg=#262626 guibg=#fef869 gui=NONE cterm=NONE
   else
-    hi MatchParen guifg=#eeeeee guibg=#156adf gui=NONE cterm=NONE
+    hi MatchParen guifg=#e8e9ec guibg=#156adf gui=NONE cterm=NONE
   endif
   if g:xcode_dim_punctuation
     hi Delimiter guifg=#5c6873 guibg=NONE gui=NONE cterm=NONE
@@ -1422,7 +1422,7 @@ endif
 " Term colors: base5      red  light_teal   orange
 " Term colors: light_blue pink light_purple base7
 " Background: light
-" Color: base0       #eeeeee ~
+" Color: base0       #e8e9ec ~
 " Color: base1       #f4f4f4 ~
 " Color: base2       #e5e5e5 ~
 " Color: base3       #cdcdcd ~
